@@ -1,0 +1,1 @@
+export const isLiked = (likes, currentId) => likes?.some(id => id === currentId)
